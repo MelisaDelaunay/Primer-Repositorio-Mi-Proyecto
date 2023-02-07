@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+header {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 2%;
+    width: 60%;
+    font-size: 80px;
+}
+
+body {
+    background-color: #B4A7D6;
+}
+
+.Introduccion {
+    background-color: aqua;
+    width: 40%;
+    margin-right: 12%;
+    font-size: 20px;
+
+}
+
+.logo {
+    border-color: #9900FF;
+    border-width: 4px;
+    border-style: solid;
+
+}
+
+nav ul li {
+    color: black;
+    background-color: white;
+    border-style: outset;
+    width: fit-content;
+    list-style: none;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px black solid;
+    width: 180px;
+    margin-bottom: 1px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.debajo {
+    background-color: #333333;
+    font-family: cursive;
+    color: white;
+    text-align: left;
+    border-color: #9900FF;
+    border-width: 3px;
+    border-style: solid;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+
+}
