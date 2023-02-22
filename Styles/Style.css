@@ -2,39 +2,43 @@
     margin: 0px;
     padding: 0px;
 }
+
 main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     flex-direction: row;
-    height: 80%;
     width: 100vw;
 }
+
 body {
     background-color: #B4A7D6;
-    flex-direction: row;
     width: 100vw;
-    height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-image: repeating-linear-gradient(360deg, #c964c9,#e17ddd, #B4A7D6, #cc83de, #c964c9)
 }
+
 header {
     padding-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
+
 h1 {
     margin: 2%;
     margin-right: 8%;
     font-size: 80px;
+    width: 70vw;
 }
+
 .Introduccion {
     margin-right: 9%;
     font-size: 20px;
     position: relative;
     bottom: 20px;
+    text-align: right;
 }
 
 .logo {
@@ -43,64 +47,1292 @@ h1 {
     border-style: solid;
     justify-items: center;
     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
     margin-left: 3%;
-    padding: 0% 1.46% 1% 1.455%;
     background-color: #333333;
     height: 100%;
-}
-.cajadebajo{
+    width: 21%;
     display: flex;
-    width: 237.5px;
+}
+
+.cajadebajo {
+    display: flex;
+    width: 20%;
     height: 100%;
-    margin-left: 3%;
     background-color: #333333;
     border-color: #9900FF;
     border-width: 3px;
     border-style: solid;
+    flex-wrap: wrap;
+    margin-left: 3%;
 }
-.debajo{ 
+
+.debajo {
     font-family: cursive;
-    color: white;
-    font-size: medium;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 5%
+    font-size: larger;
+    padding: 5% 3% 53% 3%;
+    flex-wrap: nowrap;
 }
-nav {
+
+.BotoneraSection {
     display: flex;
-    flex-direction: ;
-    align-items: center;
-    justify-content: center;
     position: relative;
     bottom: 120px;
-    right: 70px;
+    right: 5%;
 }
+
+.BotoneraSection2 {
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    right: 1.4%;
+}
+
+.BotoneraSection3 {
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    left: 0.2%;
+}
+
+.BotoneraSection4 {
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    left: 0.2%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 nav ul li {
     color: black;
     background-color: white;
     border-style: double;
     width: fit-content;
     list-style: none;
+    font-family: cursive;
     font-weight: bolder;
     font-size: 15px;
-    border: 1px black solid;
+    border: 2px black solid;
     width: 110px;
     margin: 25px;
-    text-align:justify;
+    text-align: justify;
     display: flex;
-    flex-direction: row;
-    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: relative;
+    box-shadow: 3px 3px black;
 }
-footer{
+
+nav ul li a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+footer {
     position: relative;
     margin-right: 5%;
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
-    height: 10%;
+    bottom: 40px;
+    text-align: right;
+}
+
+.descripción {
+    display: flex;
+    margin-left: 3%;
+    background-color: #333333;
+    border-color: #9900FF;
+    border-width: 3px;
+    border-style: solid;
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: larger;
+    padding: 9.5% 0% 9.5% 0%;
+    flex-wrap: nowrap;
+}
+
+.fotosproyectos {
+    justify-content: space-around;
+    justify-items: normal;
+    position: relative;
+    bottom: 150px;
+
+}
+
+.debajoProyectos {
+    padding: 5% 2% 87% 2%;
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: larger;
+    flex-wrap: nowrap;
+}
+
+.logocajaProyecto {
+    border-color: #9900FF;
+    border-width: 3px;
+    border-style: solid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: #333333;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.debajoCV {
+    padding: 5% 0% 113% 0%;
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: larger;
+    flex-wrap: nowrap;
+}
+
+.footerProyecto {
+    position: relative;
+    font-size: large;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.Paginaporcrear {
+    top: 35px;
+    position: relative;
+    right: 80px;
+}
+
+.logocajaCV {
+    border-color: #9900FF;
+    border-width: 3px;
+    border-style: solid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: #333333;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.descripciónCV {
+    margin-right: 9%;
+    font-size: large;
+    position: relative;
+    bottom: 120px;
+    text-align: right;
+}
+
+.BotoneraCV {
+    position: relative;
+    right: 43.5px;
+}
+
+.cajaContacto {
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: larger;
+    padding: 5% 2% 70% 3%;
+    flex-wrap: nowrap;
+}
+
+.cajaContacto1 {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color: #333333;
+    border-color: #9900FF;
+    border-width: 3px;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+form {
+    position: relative;
+}
+
+.formulario {
+    font-family: cursive;
+    font-weight: bold;
+    position: relative;
+    right: 250px;
+    bottom: 120px;
+}
+
+.BotoneraContacto {
+    position: relative;
+    right: 177px;
+}
+
+.Enviar {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+    border: 2px black solid;
+    position: relative;
+    left: 80px;
+    box-shadow: 3px 3px black;
+}
+.Enviar:hover{
+    background-color: rgb(45, 233, 45);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
+
+@media screen and (min-width:308px) and (max-width:412px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Introduccion {
+        font-size: medium;
+        top: 30px;
+        display: flex;
+        margin: 0%;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        left: 5%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .BotoneraSection {
+        position: relative;
+        bottom: 230px;
+    }
+
+    nav ul li {
+        width: auto;
+        width: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 1%;
+        padding: 1.5%;
+    }
+
+    .cajadebajo {
+        display: flex;
+        height: 100%;
+        width: 92%;
+        flex-wrap: wrap;
+        margin: 0%;
+        position: relative;
+        top: 80px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    .debajo {
+        width: 80vh;
+        text-align: center;
+        padding: 1% 2% 1% 2%;
+    }
+
+    /*Proyectos*/
+
+    .debajoProyectos {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: larger;
+        flex-wrap: nowrap;
+    }
+
+    .Paginaporcrear {
+        top: 5px;
+        position: relative;
+        right: 0px;
+    }
+
+    .fotosproyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: normal;
+        position: relative;
+        top: 50px;
+
+    }
+
+    .BotoneraSection2 {
+        display: flex;
+        position: relative;
+        bottom: 110px;
+        right: 6%;
+    }
+
+    .footerProyecto {
+        position: relative;
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    /*Curriculum*/
+    .debajoCV {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        font-size: larger;
+        flex-wrap: nowrap;
+        position: relative;
+        bottom: 20%;
+    }
+
+    .descripciónCV {
+        font-size: large;
+        position: relative;
+        top: 25px;
+        text-align: center;
+        left: 5%;
+    }
+
+    .BotoneraSection3 {
+        bottom: 56px;
+        left: 5%;
+    }
+
+    /*Contacto*/
+    .cajaContacto1 {
+        display: flex;
+        width: 90%;
+        height: 100%;
+        background-color: #333333;
+        border-color: #9900FF;
+        border-width: 3px;
+        border-style: solid;
+        flex-wrap: wrap;
+        position: relative;
+        top: 80px;
+    }
+
+    .cajaContacto {
+        font-family: cursive;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: larger;
+        padding: 2% 2% 2% 2%;
+        flex-wrap: nowrap;
+    }
+
+    .BotoneraSection4 {
+        display: flex;
+        position: relative;
+        bottom: 170px;
+    }
+
+    .formulario {
+        font-family: cursive;
+        font-weight: bold;
+        position: relative;
+        right: 20px;
+        top: 25px
+    }
+
+    .BotoneraContacto {
+        right: 5%;
+    }
+    .Flecha{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width:412px) and (max-width:562px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Introduccion {
+        font-size: medium;
+        top: 30px;
+        display: flex;
+        margin: 0%;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        left: 5%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .BotoneraSection {
+        position: relative;
+        bottom: 180px;
+    }
+
+    nav ul li {
+        width: auto;
+        width: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 1%;
+        padding: 1.5%;
+    }
+
+    .cajadebajo {
+        display: flex;
+        height: 100%;
+        width: 92%;
+        flex-wrap: wrap;
+        margin: 0%;
+        position: relative;
+        top: 80px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    .debajo {
+        width: 100vh;
+        text-align: center;
+        padding: 1% 2% 1% 2%;
+    }
+
+    /*Proyectos*/
+
+    .debajoProyectos {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: larger;
+        flex-wrap: nowrap;
+    }
+
+    .Paginaporcrear {
+        top: 5px;
+        position: relative;
+        right: 0px;
+    }
+
+    .fotosproyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: normal;
+        position: relative;
+        top: 50px;
+
+    }
+
+    .BotoneraSection2 {
+        bottom: 110px;
+        right: 6%;
+    }
+
+    .footerProyecto {
+        position: relative;
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    /*Curriculum*/
+    .debajoCV {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        font-size: larger;
+        flex-wrap: nowrap;
+        position: relative;
+        bottom: 20%;
+    }
+
+    .descripciónCV {
+        font-size: large;
+        position: relative;
+        top: 25px;
+        text-align: center;
+        left: 5%;
+    }
+
+    .BotoneraSection3 {
+        bottom: 56px;
+        left: 5%;
+    }
+
+    /*Contacto*/
+    .cajaContacto1 {
+        display: flex;
+        width: 90%;
+        height: 100%;
+        background-color: #333333;
+        border-color: #9900FF;
+        border-width: 3px;
+        border-style: solid;
+        flex-wrap: wrap;
+        position: relative;
+        top: 80px;
+    }
+
+    .cajaContacto {
+        font-family: cursive;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: larger;
+        padding: 2% 2% 2% 2%;
+        flex-wrap: nowrap;
+    }
+
+    .BotoneraSection4 {
+        display: flex;
+        position: relative;
+        bottom: 170px;
+    }
+
+    .formulario {
+        font-family: cursive;
+        font-weight: bold;
+        position: relative;
+        right: 20px;
+        top: 25px
+    }
+
+    .BotoneraContacto {
+        right: 5%;
+    }
+    .Flecha{
+        visibility: hidden;
+    }
+}
+
+    @media screen and (min-width:562px) and (max-width:748px) {
+        h1 {
+            font-size: 75px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .Introduccion {
+            font-size: medium;
+            top: 30px;
+            display: flex;
+            margin: 0%;
+            text-align: center;
+        }
+
+        nav ul {
+            flex-direction: row;
+            left: 5%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .BotoneraSection {
+            position: relative;
+            bottom: 130px;
+        }
+
+        nav ul li {
+            width: auto;
+            width: 80px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin: 1%;
+            padding: 1.5%;
+        }
+
+        .cajadebajo {
+            display: flex;
+            height: 100%;
+            width: 92%;
+            flex-wrap: wrap;
+            margin: 0%;
+            position: relative;
+            top: 80px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: larger;
+            position: relative;
+            top: 50px;
+            margin: 0%;
+        }
+
+        .debajo {
+            width: 100vh;
+            text-align: center;
+            padding: 1% 2% 1% 2%;
+        }
+
+        /*Proyectos*/
+
+        .debajoProyectos {
+            padding: 1% 2% 1% 2%;
+            font-family: cursive;
+            height: 100%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            font-size: larger;
+            flex-wrap: nowrap;
+        }
+
+        .Paginaporcrear {
+            top: 5px;
+            position: relative;
+            right: 0px;
+        }
+
+        .fotosproyectos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: normal;
+            position: relative;
+            top: 50px;
+
+        }
+
+        .BotoneraSection2 {
+            display: flex;
+            position: relative;
+            bottom: 80px;
+            right: 6%;
+        }
+
+        .footerProyecto {
+            position: relative;
+            text-align: center;
+            font-size: larger;
+            position: relative;
+            top: 50px;
+            margin: 0%;
+        }
+
+        /*Curriculum*/
+        .debajoCV {
+            padding: 1% 2% 1% 2%;
+            font-family: cursive;
+            height: 100%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            font-size: larger;
+            flex-wrap: nowrap;
+            position: relative;
+            bottom: 20%;
+        }
+
+        .descripciónCV {
+            font-size: large;
+            position: relative;
+            top: 25px;
+            text-align: center;
+            left: 5%;
+        }
+
+        .BotoneraSection3 {
+            bottom: 56px;
+            left: 5%;
+        }
+
+        /*Contacto*/
+        .cajaContacto1 {
+            display: flex;
+            width: 90%;
+            height: 100%;
+            background-color: #333333;
+            border-color: #9900FF;
+            border-width: 3px;
+            border-style: solid;
+            flex-wrap: wrap;
+            position: relative;
+            top: 80px;
+        }
+
+        .cajaContacto {
+            font-family: cursive;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row;
+            font-size: larger;
+            padding: 2% 2% 2% 2%;
+            flex-wrap: nowrap;
+        }
+
+        .BotoneraSection4 {
+            display: flex;
+            position: relative;
+            bottom: 120px;
+        }
+
+        .formulario {
+            font-family: cursive;
+            font-weight: bold;
+            position: relative;
+            right: 20px;
+            top: 25px
+        }
+
+        .BotoneraContacto {
+            right: 5%;
+        }
+        .Flecha{
+            visibility: hidden;
+        }
+    }
+
+    @media screen and (min-width:748px) and (max-width:1100px) {
+        h1 {
+            font-size: 95px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .Introduccion {
+            font-size: large;
+            top: 30px;
+            display: flex;
+            margin: 0%;
+            text-align: center;
+
+        }
+
+        nav ul {
+            flex-direction: row;
+            left: 5%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .BotoneraSection {
+            position: relative;
+            bottom: 180px;
+        }
+
+        nav ul li {
+            width: auto;
+            width: 80px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin: 1%;
+            padding: 1.5%;
+        }
+
+        .cajadebajo {
+            display: flex;
+            height: 100%;
+            width: 92%;
+            flex-wrap: wrap;
+            margin: 0%;
+            position: relative;
+            top: 80px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: x-large;
+            position: relative;
+            top: 50px;
+            margin: 0%;
+        }
+
+        .debajo {
+            width: 100vh;
+            text-align: center;
+            padding: 1% 2% 1% 2%;
+            font-size: x-large;
+        }
+
+        /*Proyectos*/
+
+        .debajoProyectos {
+            padding: 1% 2% 1% 2%;
+            font-family: cursive;
+            height: 100%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            font-size: x-large;
+            flex-wrap: nowrap;
+        }
+
+        .Paginaporcrear {
+            top: 5px;
+            position: relative;
+            right: 0px;
+        }
+
+        .fotosproyectos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: normal;
+            position: relative;
+            top: 50px;
+
+        }
+
+        .BotoneraSection2 {
+            display: flex;
+            position: relative;
+            bottom: 110px;
+            right: 6%;
+        }
+
+        .footerProyecto {
+            position: relative;
+            text-align: center;
+            font-size: larger;
+            position: relative;
+            top: 70px;
+            margin: 0%;
+        }
+
+        /*Curriculum*/
+        .debajoCV {
+            padding: 1% 2% 1% 2%;
+            font-family: cursive;
+            height: 100%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            font-size: x-large;
+            flex-wrap: nowrap;
+            position: relative;
+            bottom: 20%;
+        }
+
+        .descripciónCV {
+            font-size: large;
+            position: relative;
+            top: 25px;
+            text-align: center;
+            left: 5%;
+        }
+
+        .BotoneraSection3 {
+            bottom: 70px;
+        }
+
+        /*Contacto*/
+        .cajaContacto1 {
+            display: flex;
+            width: 90%;
+            height: 100%;
+            background-color: #333333;
+            border-color: #9900FF;
+            border-width: 3px;
+            border-style: solid;
+            flex-wrap: wrap;
+            position: relative;
+            top: 80px;
+        }
+
+        .cajaContacto {
+            font-family: cursive;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: row;
+            font-size: x-large;
+            padding: 2% 2% 2% 2%;
+            flex-wrap: nowrap;
+        }
+
+        .BotoneraSection4 {
+            display: flex;
+            position: relative;
+            bottom: 150px;
+        }
+
+        .formulario {
+            font-family: cursive;
+            font-weight: bold;
+            position: relative;
+            right: 20px;
+            top: 25px
+        }
+
+        .BotoneraContacto {
+            right: 5%;
+        }
+        .Flecha{
+            visibility: hidden;
+        }
+    }
+
+    
+@media screen and (min-width:0px) and (max-width:308px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Introduccion {
+        font-size: medium;
+        top: 30px;
+        display: flex;
+        margin: 0%;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        left: 5%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .BotoneraSection {
+        position: relative;
+        bottom: 230px;
+    }
+
+    nav ul li {
+        width: auto;
+        width: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 1%;
+        padding: 1.5%;
+    }
+
+    .cajadebajo {
+        display: flex;
+        height: 100%;
+        width: 92%;
+        flex-wrap: wrap;
+        margin: 0%;
+        position: relative;
+        top: 80px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    .debajo {
+        width: 80vh;
+        text-align: center;
+        padding: 1% 2% 1% 2%;
+    }
+
+    /*Proyectos*/
+
+    .debajoProyectos {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: larger;
+        flex-wrap: nowrap;
+    }
+
+    .Paginaporcrear {
+        top: 5px;
+        position: relative;
+        right: 0px;
+    }
+
+    .fotosproyectos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: normal;
+        position: relative;
+        top: 50px;
+
+    }
+
+    .BotoneraSection2 {
+        display: flex;
+        position: relative;
+        bottom: 110px;
+        right: 6%;
+    }
+
+    .footerProyecto {
+        position: relative;
+        text-align: center;
+        font-size: larger;
+        position: relative;
+        top: 50px;
+        margin: 0%;
+    }
+
+    /*Curriculum*/
+    .debajoCV {
+        padding: 1% 2% 1% 2%;
+        font-family: cursive;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        font-size: larger;
+        flex-wrap: nowrap;
+        position: relative;
+        bottom: 20%;
+    }
+
+    .descripciónCV {
+        font-size: large;
+        position: relative;
+        top: 25px;
+        text-align: center;
+        left: 5%;
+    }
+
+    .BotoneraSection3 {
+        bottom: 56px;
+        left: 5%;
+    }
+
+    /*Contacto*/
+    .cajaContacto1 {
+        display: flex;
+        width: 90%;
+        height: 100%;
+        background-color: #333333;
+        border-color: #9900FF;
+        border-width: 3px;
+        border-style: solid;
+        flex-wrap: wrap;
+        position: relative;
+        top: 80px;
+    }
+
+    .cajaContacto {
+        font-family: cursive;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: larger;
+        padding: 2% 2% 2% 2%;
+        flex-wrap: nowrap;
+    }
+
+    .BotoneraSection4 {
+        display: flex;
+        position: relative;
+        bottom: 170px;
+    }
+
+    .formulario {
+        font-family: cursive;
+        font-weight: bold;
+        position: relative;
+        right: 20px;
+        top: 25px
+    }
+
+    .BotoneraContacto {
+        right: 5%;
+    }
+    .Flecha{
+        visibility: hidden;
+    }
 }

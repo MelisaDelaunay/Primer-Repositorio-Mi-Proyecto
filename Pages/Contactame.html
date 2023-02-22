@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/Style.css">
+    <link rel="stylesheet" href="../Styles/Style.css">
     <title>Contactame!!!</title>
 </head>
+
 <body style="background-color: #B4A7D6;">
-    <section>
-        <img src="../Multimedia/MD.png" weight="200px" width="200px" alt="Imagen con las letras M y D en mayuscula en color blanco, con un circulo violeta alrededor y fondo gris oscuro">
-        <p style="color: white; font-family: cursive; background-color: #333333;">
-            Si tenès una pyme y la <br>
-            querès llevar al siguiente <br>
-            nivel, dejame tus datos y a <br>
-            la brevedad me <br>
-            contactarè. <br>
-            Tambien me podes <br>
-            encontrar en todas las <br>
-            redes sociales con mi <br>
-            nombre "Mel Delaunay"</p>
-    </section>
-    <section>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li> <br><br>
-                <li><a href="./MiCurriculum.html">Mi Curriculum</a></li> <br><br>
-                <li><a href="./MisProyectos.html">Mis Proyectos</a></li> <br><br>
-                <li>Contactame!</li>
-            </ul>
-        </nav>
-    </section>
-    <section>
-        <form action="" name="Formulario">
-            <label for="Nombre">Nombre*</label>
-            <input type="text" name="Nombre" placeholder="Jane Doe"> <br><br>
-            <label for="E-mail">E - mail*</label>
-            <input type="email" name="Email" placeholder="janedoe@ejemplo.com"> <br> <br>
-            <label for="Telefono">Telefono</label>
-            <input type="tel" name="Telefono" placeholder="01112345678"><br> <br>
-            <label for="Mensaje">Mensaje</label>
-            <textarea name="Mensaje" placeholder="Ingrese su mensaje aqui"  cols="30" rows="10"></textarea> <br><br>
-            <input type="button" value="Enviar!">
-        </form>
-    </section>    
+    <header style="font-family: cursive;">
+        <div class="logocajaProyecto"><img height="100%" width="100%" src="../Multimedia/MD.png"
+                alt="Imagen con las letras M y D en mayuscula en color blanco, con un circulo violeta alrededor y fondo gris oscuro">
+        </div>
+    </header>
+    <main>
+        <section class="cajaContacto1">
+            <p class="cajaContacto" style="color: white; font-family: cursive; background-color: #333333;">
+                Si tenés una pyme y la 
+                querés llevar al siguiente 
+                nivel, dejame tus datos y a
+                la brevedad me
+                contactaré. 
+                También me podes 
+                encontrar en todas las 
+                redes sociales con mi
+                nombre "Mel Delaunay".</p>
+        </section>
+        <section class="BotoneraSection4">
+            <nav class="BotoneraContacto">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li> <br><br>
+                    <li><a href="./MisProyectos.html">Mis Proyectos</a></li> <br><br>
+                    <li><a href="./MiCurriculum.html">Mi Curriculum</a></li> <br><br>
+                    <li>Contactame!</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="formulario">
+            <form action="" name="Formulario">
+                <label for="Nombre">Nombre*</label>
+                <input type="text" name="Nombre" placeholder="Jane Doe"> <br><br><br>
+                <label for="E-mail">E - mail*</label>
+                <input type="email" name="Email" placeholder="janedoe@ejemplo.com"> <br><br><br>
+                <label for="Telefono">Telefono</label>
+                <input type="tel" name="Telefono" placeholder="01112345678"><br><br>
+                <label for="Mensaje">Mensaje</label> <br>
+                <textarea name="Mensaje" placeholder="Ingrese su mensaje aqui" cols="30" rows="10"></textarea> <br><br>
+                <input class="Enviar" type="button" value="Enviar!">
+            </form>
+        </section>
+
+    </main>
 </body>
-<hr>
-<footer> <p style="font-style: italic; text-align: right;"> "El talento gana partidos, pero el trabajo en equipo y la inteligencia ganan campeonatos." -Michael Jordan </p> </footer>
+<footer class="footer">
+    <p style="font-style: italic;"> "El talento gana partidos, pero el trabajo en equipo y la
+        inteligencia ganan campeonatos." -Michael Jordan </p>
+</footer>
+
 </html>
